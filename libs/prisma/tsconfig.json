@@ -1,18 +1,21 @@
 {
-	"compilerOptions": {
-		"rootDir": "src",
-		"outDir": "dist",
-		"baseUrl": ".",
-		"target": "esnext",
-		"module": "commonjs",
-		"allowSyntheticDefaultImports": true,
-		"moduleResolution": "node",
-		"declaration": true,
-		"declarationMap": true,
-		"sourceMap": true,
-		"esModuleInterop": true,
-		"strict": true,
-		"lib": ["esnext"]
-	},
-	"include": ["src/**/*.ts"]
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false
+  }
 }
