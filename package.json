@@ -1,0 +1,13 @@
+{
+  "name": "ju-backend-eiei",
+  "version": "1.0.0",
+  "author": "jungai",
+  "license": "ISC",
+  "pnpm": {
+    "overrides": {
+      "@nestjs/common": "^8.0.0",
+      "@nestjs/core": "^8.0.0",
+      "@nestjs/platform-express": "^8.0.0"
+    }
+  }
+}
